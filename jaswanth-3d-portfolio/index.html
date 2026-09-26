@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jaswanth — Computer Science Engineering student and software developer portfolio." />
+  <title>Jaswanth | 3D Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid-floor"></div>
+    <div class="stars"></div>
+  </div>
+
+  <header class="nav">
+    <a class="logo" href="#home">J<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-btn" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">COMPUTER SCIENCE ENGINEERING · SOFTWARE DEVELOPMENT</p>
+        <h1>Building ideas<br /><span>in 3D.</span></h1>
+        <p class="hero-text">
+          I'm Jaswanth, a Computer Science Engineering student who enjoys
+          building software, solving problems, and learning how systems work.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#projects">View my work <span>↓</span></a>
+          <a class="ghost-btn" href="#contact">Contact me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="tilt-card" id="heroCard">
+          <div class="card-glow"></div>
+          <div class="cube-wrap">
+            <div class="cube">
+              <div class="face front">CODE</div>
+              <div class="face back">BUILD</div>
+              <div class="face right">LEARN</div>
+              <div class="face left">CREATE</div>
+              <div class="face top">JAVA</div>
+              <div class="face bottom">SQL</div>
+            </div>
+          </div>
+          <div class="floating-tag tag-1">Java</div>
+          <div class="floating-tag tag-2">DSA</div>
+          <div class="floating-tag tag-3">SQL</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 · ABOUT</p>
+        <h2>Curious by nature.<br /><span>Builder by choice.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="glass-card large reveal">
+          <p class="big-copy">
+            I like turning problems into practical software. My current focus is
+            strengthening Java, DSA, SQL, data analysis, and software engineering
+            fundamentals while building projects that solve real problems.
+          </p>
+        </div>
+        <div class="glass-card stat reveal">
+          <strong>9.2</strong>
+          <span>CGPA / 10</span>
+        </div>
+        <div class="glass-card stat reveal">
+          <strong>2028</strong>
+          <span>Expected graduation</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 · SKILLS</p>
+        <h2>Tools I use to<br /><span>build things.</span></h2>
+      </div>
+      <div class="skill-cloud reveal">
+        <div class="skill-card"><b>01</b><span>Java</span><small>Programming</small></div>
+        <div class="skill-card"><b>02</b><span>DSA</span><small>Problem Solving</small></div>
+        <div class="skill-card"><b>03</b><span>SQL</span><small>Databases</small></div>
+        <div class="skill-card"><b>04</b><span>Python</span><small>Data & AI</small></div>
+        <div class="skill-card"><b>05</b><span>HTML / CSS / JS</span><small>Web Development</small></div>
+        <div class="skill-card"><b>06</b><span>FastAPI</span><small>Backend</small></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 · PROJECTS</p>
+        <h2>A few things<br /><span>I've built.</span></h2>
+      </div>
+
+      <div class="projects">
+        <article class="project-card project-1 reveal">
+          <div class="project-number">01</div>
+          <div>
+            <p class="project-type">SOFTWARE · FASTAPI</p>
+            <h3>QLASSIFY</h3>
+            <p>
+              A benchmarking platform for classical, quantum, and hybrid SVM/QSVM
+              experiments, with distributed experiment scheduling and reporting.
+            </p>
+            <div class="chips"><span>Python</span><span>FastAPI</span><span>Qiskit</span></div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+
+        <article class="project-card project-2 reveal">
+          <div class="project-number">02</div>
+          <div>
+            <p class="project-type">NETWORKING · AI</p>
+            <h3>NetSage-AI</h3>
+            <p>
+              A Cisco troubleshooting assistant that analyzes network symptoms
+              and show output, suggests likely causes, and keeps a human in the loop.
+            </p>
+            <div class="chips"><span>FastAPI</span><span>Networking</span><span>AI</span></div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+
+        <article class="project-card project-3 reveal">
+          <div class="project-number">03</div>
+          <div>
+            <p class="project-type">ACADEMIC SOFTWARE</p>
+            <h3>LECTRONOTE</h3>
+            <p>
+              A digital lecture-notes platform designed to organize and manage
+              academic notes with a focus on teamwork, testing, and clean modules.
+            </p>
+            <div class="chips"><span>Web</span><span>Teamwork</span><span>Testing</span></div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 · EDUCATION</p>
+        <h2>Learning the<br /><span>fundamentals.</span></h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span>2024 — 2028</span>
+          <div><h3>B.Tech — Computer Science & Engineering</h3><p>Lendi Institute of Engineering and Technology</p></div>
+        </div>
+        <div class="timeline-item">
+          <span>2022 — 2024</span>
+          <div><h3>Intermediate</h3><p>Narayana Junior College · 96%</p></div>
+        </div>
+        <div class="timeline-item">
+          <span>2022</span>
+          <div><h3>SSC</h3><p>St Joseph English Medium High School · 79%</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">05 · CONTACT</p>
+        <h2>Let's build<br /><span>something useful.</span></h2>
+        <p>Have an opportunity, project idea, or just want to connect?</p>
+        <a class="primary-btn" href="mailto:your.email@example.com">Email me <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Jaswanth</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
